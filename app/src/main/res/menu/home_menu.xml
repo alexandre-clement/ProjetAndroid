@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard_item"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/dashboard"/>
+
+        <item
+            android:id="@+id/traffic_item"
+            android:icon="@drawable/ic_traffic_black_24dp"
+            android:title="@string/traffic"/>
+
+        <item
+            android:id="@+id/weather_item"
+            android:icon="@drawable/ic_wb_sunny_black_24dp"
+            android:title="@string/weather"/>
+
+        <item
+            android:id="@+id/sell_item"
+            android:icon="@drawable/ic_show_chart_black_24dp"
+            android:title="@string/out_of_stock"/>
+
+        <item
+            android:id="@+id/command_item"
+            android:icon="@drawable/ic_import_export_black_24dp"
+            android:title="@string/command"/>
+
+        <item
+            android:id="@+id/delivery_item"
+            android:icon="@drawable/ic_local_shipping_black_24dp"
+            android:title="@string/delivery"/>
+
+        <item
+            android:id="@+id/settings_item"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/settings"/>
+
+
+    </group>
+</menu>

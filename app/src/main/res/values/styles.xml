@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="CardDialogAlert" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="WhiteCard" parent="CardView.Light">
+    </style>
+
+    <style name="CardText" parent="Base.V12.Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textCursorDrawable">@color/colorPrimaryDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:animateOnClick">true</item>
+        <item name="android:padding">20dp</item>
+        <item name="background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="NavigationHome" parent="Widget.Design.NavigationView">
+        <item name="android:itemBackground">@color/home_nav_state_list</item>
+        <item name="android:itemTextAppearance">@color/home_nav_state_list</item>
+        <item name="android:colorActivatedHighlight">@color/home_nav_state_list</item>
+        <item name="android:actionModeBackground">@color/home_nav_state_list</item>
+        <item name="android:activatedBackgroundIndicator">@color/home_nav_state_list</item>
+        <item name="background">@color/home_nav_state_list</item>
+    </style>
+</resources>

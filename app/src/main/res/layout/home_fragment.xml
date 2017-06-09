@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/home_navigation"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        app:itemTextColor="@color/home_nav_state_list"
+        app:itemBackground="@color/home_background_item"
+        app:itemIconTint="@color/home_nav_state_list"
+        app:menu="@menu/home_menu">
+
+    </android.support.design.widget.NavigationView>
+
+    <fr.unice.polytech.tobeortohave.fragment.home.navigation.VerticalViewPager
+        android:id="@+id/home_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+

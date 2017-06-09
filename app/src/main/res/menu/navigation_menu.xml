@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_item"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/stock_item"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:title="@string/stock"/>
+
+        <item
+            android:id="@+id/staff_item"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/staff"/>
+
+        <item
+            android:id="@+id/command_item"
+            android:icon="@drawable/ic_import_export_black_24dp"
+            android:title="@string/command"/>
+
+        <item
+            android:id="@+id/stat_item"
+            android:icon="@drawable/ic_show_chart_black_24dp"
+            android:title="@string/statistic"/>
+    </group>
+</menu>

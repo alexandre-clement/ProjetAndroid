@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    style="@style/WhiteCard"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:contentDescription="@string/card_view_image"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_person_black_24dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/name"
+                    android:inputType="textAutoCorrect|textAutoComplete"
+                    style="@style/CardText"
+                    android:textSize="20sp"/>
+
+                <EditText
+                    android:id="@+id/job"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:selectableItemBackground"
+                    android:hint="@string/category"
+                    android:inputType="textAutoComplete|textAutoCorrect|textShortMessage"
+                    style="@style/CardText"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/open"
+                android:layout_below="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:hint="@string/opening_time"
+                android:inputType="textAutoComplete|textAutoCorrect|textShortMessage"
+                style="@style/CardText"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/close"
+                android:layout_below="@id/open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:hint="@string/closing_time"
+                android:inputType="textAutoComplete|textAutoCorrect|textShortMessage"
+                style="@style/CardText"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/url"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/photo_url"
+                android:inputType="textUri"
+                style="@style/CardText"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
